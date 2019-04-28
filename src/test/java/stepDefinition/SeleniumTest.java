@@ -22,7 +22,7 @@ public class SeleniumTest {
 	@When("^User enters UserName and Password$")
 	public void User_enters_UserName_and_Password()  {
 	    // Express the Regexp above with the code you wish you had
-		System.out.println("User enters UserName and Password");
+		System.out.println("User enters Credential");
 	}
 
 	@Then("^Message displayed Login Successfully$")
