@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 309754800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "SeleniumTest.User_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "SeleniumTest.User_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters UserName and Password",
+            "match": {
+              "location": "SeleniumTest.User_enters_UserName_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 240500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "SeleniumTest.Message_displayed_Login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "Login_Test.feature"
+  }
+]

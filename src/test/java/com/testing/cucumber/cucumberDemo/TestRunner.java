@@ -11,6 +11,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
  features = "Feature"
  ,glue={"stepDefinition"}
+ ,format = {"json:target/cucumber.json"}
  )
  
 public class TestRunner {
